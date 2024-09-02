@@ -336,9 +336,16 @@ font-family: poppins;
 }
 #blogs .card{
     height: 367px;
+    background-position: center center;
     
     background-size: 273%;
 } 
+#blogs .card:hover{
+    height: 367px;
+    background-position: center center;
+    
+    background-size: 273%;
+}
         #contact h2{
             font-size: 30px;
             text-align: center;

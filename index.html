@@ -60,7 +60,7 @@
 		
 		</header>
 
- <section class="container-fluid m-0 p-0">
+ <section class="container-fluid m-0 p-0" style="clip-path: polygon(0 1%, 100% 0%, 100% 90%, 0% 100%);">
 	<div id="carouselExample" class="carousel slide m-0 p-0">
 		<div class="carousel-inner">
 		  <div class="carousel-item active">
@@ -239,7 +239,7 @@
 		<div class="col-md-6 ">
 
 			<div class="row">
-				<div class="col-md-6 ">
+				<div class="col-md-6 mt-5">
 					<div class="card  p-5">
 						<i class="fa fa-bookmark"></i>
 
@@ -248,7 +248,7 @@
 					</div>	
 				</div>
 
-				<div class="col-md-6 ">
+				<div class="col-md-6 mt-5">
 					<div class="card  p-5">
 						<i class="fa-solid fa-phone"></i>
 
@@ -341,6 +341,7 @@
 		$('.autoplay').slick({
   centerMode: true,
   centerPadding: '60px',
+  autoplaySpeed: 2000,
   slidesToShow: 3,
 
   responsive: [
@@ -350,7 +351,8 @@
         arrows: false,
         centerMode: true,
         centerPadding: '40px',
-		
+		autoplay: true,
+        autoplaySpeed: 2000,
         slidesToShow: 1
       }
     },
@@ -360,7 +362,8 @@
         arrows: false,
         centerMode: true,
         centerPadding: '40px',
-		
+		autoplay: true,
+        autoplaySpeed: 2000,
         slidesToShow: 1
       }
     }

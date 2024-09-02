@@ -76,6 +76,7 @@ nav ul li .nav-link:hover{
     background-color: #ffffff;
     z-index: 5000;
     position: relative;
+    display: none;
  }
 #about .intro{
     width: 248px;
@@ -283,7 +284,13 @@ font-family: poppins;
         background-color: #1f2020;
         text-align: center;
     }
-
+    nav .offcanvas .mybtn-close{
+        padding: 15px;
+        background-color: #ffffff;
+        z-index: 5000;
+        position: relative;
+        display: block;
+     }
     #carouselExample h1,.para,.btn1{
         display: none;
     }

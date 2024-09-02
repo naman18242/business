@@ -71,6 +71,12 @@ nav ul li .nav-link{
 nav ul li .nav-link:hover{
     color: white;
  }
+ nav .offcanvas .mybtn-close{
+    padding: 15px;
+    background-color: #ffffff;
+    z-index: 5000;
+    position: relative;
+ }
 #about .intro{
     width: 248px;
 }
@@ -142,6 +148,7 @@ font-family: poppins;
  #blogs h2{
     font-size: 61px;
  }
+
  #blogs .cards1{
     height: 300px;
     background-image: url(../images/blog1.png);
@@ -290,29 +297,34 @@ font-family: poppins;
         margin-top: 80px;
         width:100%;
         background-color: aqua;
-        height:702px;
+        height: 702px;
         color:white;
     }
-#number .overlay{
+    
+    #number .overlay{
         width:100%;
         height: 100%;
         background-color: #161616c0;
         position: absolute;
-}
-#number img{
-display:none;
-}
-#number .content h2{
-  width: 346px;
-font-size: 30px;
- background-color: transparent;
- color: white;
-font-family: poppins;
-}
+     
+     
+    }
+    #number .content h2{
+  
+        width: 346px;
+        font-size: 30px;
+       background-color: transparent;
+       color: white;
+       font-family: poppins;
+            }
     
         #number h4{
             color:white;
-        }  
+        } 
+#blogs .card{
+    height: 666px;
+    background-color: red;
+} 
         #contact h2{
             font-size: 30px;
             text-align: center;

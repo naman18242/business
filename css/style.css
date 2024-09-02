@@ -277,6 +277,9 @@ font-family: poppins;
     padding: 25px 0;
     background: #19191a;
 }
+.slick-slide{
+    height: 888px;
+}
 @media screen and (max-width: 880px) {
 
 
@@ -323,14 +326,18 @@ font-family: poppins;
        background-color: transparent;
        color: white;
        font-family: poppins;
-            }
+}
     
-        #number h4{
+#number h4{
             color:white;
-        } 
+} 
+#number img{
+    display: none;
+}
 #blogs .card{
-    height: 666px;
-    background-color: red;
+    height: 367px;
+    
+    background-size: 273%;
 } 
         #contact h2{
             font-size: 30px;
